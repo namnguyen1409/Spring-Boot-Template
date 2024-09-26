@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>Hello Thymeleaf</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" th:href="@{/css/style.css}" />
+    </head>
+    <body>
+        <h1 th:text="${message}"></h1>
+        <br><hr><br><br>
+        <img th:src="@{/images/image.png}" />
+    </body>
+    <script th:src="@{/js/main.js}"></script>
+</html>
